@@ -1,4 +1,4 @@
-# Machine Learning Exercises
+# Implementation of Machine Learning Algorithms
 My Octave/Matlab exercises for stanford machine learning class
 
 # Stanford Honor Code
