@@ -36,7 +36,7 @@ x = zeros(n, 1);
 %
 %              (note: the above numbers are just an example and are not the
 %               actual mappings).
-%
+%s
 %              Your task is take one such word_indices vector and construct
 %              a binary feature vector that indicates whether a particular
 %              word occurs in the email. That is, x(i) = 1 when word i
@@ -47,13 +47,9 @@ x = zeros(n, 1);
 %              x = [ 0 0 0 0 1 0 0 0 ... 0 0 0 0 1 ... 0 0 0 1 0 ..];
 %
 %
-
-
-
-
-
-
-
+for i = word_indices
+  x(i) = 1;
+end
 
 % =========================================================================
     
